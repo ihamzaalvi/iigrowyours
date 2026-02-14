@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Grow Yours – Social Media Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+:root{--bg:#0b1220;--card:#121a2f;--border:#1f2a4a;--accent:#00e5a8;--grad:linear-gradient(135deg,#5b8cff,#7b2cff)}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Poppins,system-ui;background:radial-gradient(1200px 400px at 10% -10%,#1a2350,transparent),var(--bg);color:#fff}
+.container{max-width:1200px;margin:auto;padding:18px}
+.sticky{position:sticky;top:0;z-index:50;backdrop-filter:blur(6px)}
+.hero{background:var(--grad);border-radius:20px;padding:16px 18px 18px}
+.topbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.left{display:flex;gap:10px;align-items:center}
+.logo{width:44px;height:44px;border-radius:12px;background:#ffffff33;display:grid;place-items:center;font-weight:800;overflow:hidden}
+.logo img{width:100%;height:100%;object-fit:cover}
+
+/* clickable colorful icon pills */
+.nav a{color:#fff;text-decoration:none;padding:8px 12px;border-radius:999px;display:inline-flex;gap:6px;align-items:center;font-weight:600;box-shadow:0 6px 18px rgba(0,0,0,.25);transition:.15s}
+.nav a:hover{transform:translateY(-2px)}
+.ig-pill{background:linear-gradient(135deg,#ff4fd8,#7b2cff)}
+.tt-pill{background:linear-gradient(135deg,#00f2ea,#1a1f3f)}
+.fb-pill{background:linear-gradient(135deg,#1877f2,#0b1220)}
+.yt-pill{background:linear-gradient(135deg,#ff3b3b,#7a0f0f)}
+
+.cta{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:12px;background:var(--accent);color:#001b14;text-decoration:none;font-weight:700}
+.link{color:#9af5d7;text-decoration:none;font-weight:600}
+.sections{display:grid;gap:22px;margin-top:22px}
+.section{border-radius:18px;padding:18px;border:1px solid var(--border)}
+.section.ig{background:linear-gradient(135deg,#ff8bd1,#7b2cff)}
+.section.tt{background:linear-gradient(135deg,#00f2ea,#121a2f)}
+.section.fb{background:linear-gradient(135deg,#1877f2,#0b1220)}
+.section.yt{background:linear-gradient(135deg,#ff4d4d,#7a0f0f)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:rgba(18,26,47,.85);backdrop-filter:blur(6px);border:1px solid #ffffff22;border-radius:16px;padding:16px;transition:.2s}
+.card:hover{transform:translateY(-4px);border-color:#ffffff55}
+.badge{display:inline-block;margin-top:6px;padding:6px 10px;border-radius:999px;border:1px solid #ffffff44;font-size:12px;opacity:.95}
+
+/* Glow clickable prices */
+.price{
+  margin:8px 0 4px;
+  font-weight:800;
+  padding:8px 12px;
+  display:inline-block;
+  border-radius:12px;
+  background:linear-gradient(135deg,#ffe066,#ff8c00);
+  color:#1a1200;
+  box-shadow:0 0 12px rgba(255,224,102,.7), 0 0 22px rgba(255,140,0,.5);
+  animation:pulse 2.5s infinite;
+  text-decoration:none;
+}
+.price:hover{transform:translateY(-2px)}
+@keyframes pulse{
+  0%,100%{box-shadow:0 0 10px rgba(255,224,102,.6),0 0 18px rgba(255,140,0,.4)}
+  50%{box-shadow:0 0 18px rgba(255,224,102,.9),0 0 30px rgba(255,140,0,.7)}
+}
+
+.footer{opacity:.8;text-align:center;margin:28px 0 10px}
+@media(max-width:520px){.nav a{padding:6px 10px}}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- STICKY TOP MENU -->
+  <div class="hero sticky">
+    <div class="topbar">
+      <div class="left">
+        <div class="logo"><img src="logo.png" alt="Grow Yours"></div>
+        <div class="nav">
+          <a class="ig-pill" href="#instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a class="tt-pill" href="#tiktok"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+          <a class="fb-pill" href="#facebook"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a class="yt-pill" href="#youtube"><i class="fa-brands fa-youtube"></i> YouTube</a>
+        </div>
+      </div>
+      <a class="cta" href="https://wa.me/923040890604" target="_blank">💬 WhatsApp</a>
+    </div>
+    <h1>Grow Yours</h1>
+    <p>Complete Social Media Growth Solutions • Instagram:
+      <a class="link" href="https://instagram.com/igrowyours" target="_blank">@igrowyours</a>
+    </p>
+  </div>
+
+  <main class="sections">
+    <!-- Instagram -->
+    <section class="section ig" id="instagram">
+      <h2>📸 Instagram Services</h2>
+      <div class="grid"><div class="card">
+        <p>Likes • Comments • Views • Followers • Impressions</p>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🔥 Likes starting from <b>100 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🚀 Followers starting from <b>600 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">👀 Views starting from <b>100 PKR</b></a>
+        <span class="badge">For Order: Contact on WhatsApp</span><br><br>
+        <a class="cta" href="https://wa.me/923040890604" target="_blank">Contact on WhatsApp</a>
+      </div></div>
+    </section>
+
+    <!-- TikTok -->
+    <section class="section tt" id="tiktok">
+      <h2>🎵 TikTok Services</h2>
+      <div class="grid"><div class="card">
+        <p>Likes • Comments • Views • Saves • Shares • Followers</p>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🔥 Likes starting from <b>100 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🚀 Followers starting from <b>600 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">👀 Views starting from <b>100 PKR</b></a>
+        <span class="badge">For Order: Contact on WhatsApp</span><br><br>
+        <a class="cta" href="https://wa.me/923040890604" target="_blank">Contact on WhatsApp</a>
+      </div></div>
+    </section>
+
+    <!-- Facebook -->
+    <section class="section fb" id="facebook">
+      <h2>🔵 Facebook Services</h2>
+      <div class="grid"><div class="card">
+        <p>Likes • Comments • Page Follows • Page Likes</p>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🔥 Likes starting from <b>100 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🚀 Followers starting from <b>600 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">👀 Views starting from <b>100 PKR</b></a>
+        <span class="badge">For Order: Contact on WhatsApp</span><br><br>
+        <a class="cta" href="https://wa.me/923040890604" target="_blank">Contact on WhatsApp</a>
+      </div></div>
+    </section>
+
+    <!-- YouTube -->
+    <section class="section yt" id="youtube">
+      <h2>▶ YouTube Services</h2>
+      <div class="grid"><div class="card">
+        <p>Subscribers • Watch Time • Likes • Comments • Views</p>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🔥 Likes starting from <b>100 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">🚀 Subscribers starting from <b>600 PKR</b></a><br>
+        <a class="price" href="https://wa.me/923040890604" target="_blank">👀 Views starting from <b>100 PKR</b></a>
+        <span class="badge">For Order: Contact on WhatsApp</span><br><br>
+        <a class="cta" href="https://wa.me/923040890604" target="_blank">Contact on WhatsApp</a>
+      </div></div>
+    </section>
+  </main>
+
+  <div class="footer">
+    © 2026 Grow Yours • WhatsApp: 0304‑0890604 • 
+    <a class="link" href="https://instagram.com/igrowyours" target="_blank">@igrowyours</a>
+  </div>
+</div>
+</body>
+</html>
